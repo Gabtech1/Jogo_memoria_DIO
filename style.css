@@ -57,3 +57,19 @@ body {
 .card.flip {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 600px){
+    .card {
+        height: calc( 18% - 10px);
+        width: calc(18% - 10px);
+}
+
+.memory-game {
+    height: 500px;
+}
+
+.card-back,
+.card-front{
+    padding: 5px;
+}
+}
